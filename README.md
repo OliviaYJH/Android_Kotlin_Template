@@ -26,4 +26,10 @@ finder에서 .gitignore 파일 있는지 확인하고 그렇지 않으면 Androi
 19. MainActivity 코드 수정
 20. manifests 파일 수정
 ### == 우선 commit ==
-21. 
+21. retrofit으로 통신
+  - models로 request와 response 틀 만들기
+  - RetrofitInterface 생성하기
+  - View 생성하기
+  - Service 생성하기
+  - Fragment나 Activity에 View 상속하고 implements하기
+  - showLoadingDialog와 dismissLoadingDialog로 코드 짜기
