@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.annotation.LayoutRes
 import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
+import com.example.tempapplication.util.LoadingDialog
 
 
 abstract class BaseFragment<B : ViewBinding>(

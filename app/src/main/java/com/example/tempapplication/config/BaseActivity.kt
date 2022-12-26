@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewbinding.ViewBinding
+import com.example.tempapplication.util.LoadingDialog
 
 
 abstract class BaseActivity<B : ViewBinding>(private val inflate: (LayoutInflater) -> B) :
