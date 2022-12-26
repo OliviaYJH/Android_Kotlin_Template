@@ -7,7 +7,7 @@ finder에서 .gitignore 파일 있는지 확인하고 그렇지 않으면 Androi
 2. config, src, util 폴더 생성
 3. build.gradle 파일에 viewBinding과 implementation 추가하고 sync하기
 4. layout 폴더에 dialog_loading.xml 파일 복붙
-5. config 폴더에 ApplicationClass, BaseActivity, BaseFragment, BaseResponse, XAccessTokenInterceptor 파일 복붙
+5. util 폴더에 LoadingDialog 봍북하고, config 폴더에 ApplicationClass, BaseActivity, BaseFragment, BaseResponse, XAccessTokenInterceptor 파일 복붙
 6. setting.gradle 파일의 repositories{}의 mavenCentral() 밑에 maven { url 'https://jitpack.io' } 추가하고 sync
 7. res폴더의 values 폴더에 styles.xml 파일 복붙
 8. colors.xml 파일에 내용을 복붙
