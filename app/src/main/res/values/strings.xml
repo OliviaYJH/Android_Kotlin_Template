@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">TempApplication</string>
+
+    <!-- Main -->
+    <string name="main_btm_nav_home_title">홈</string>
+    <string name="main_btm_nav_my_page_title">마이페이지</string>
+
+    <!-- Home -->
+    <string name="home_btn_try_get_http_method">GET API 보내기</string>
+    <string name="home_btn_try_post_http_method">POST API 보내기</string>
+    <string name="home_et_id">아이디를 입력하세요.</string>
+    <string name="home_et_pw">비밀번호를 입력하세요.</string>
+
+    <!-- MyPage -->
+    <string name="my_page_tv_counter">%1d 번 눌렀습니다.</string>
+    <string name="my_page_btn_counting_number">숫자 세기</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
