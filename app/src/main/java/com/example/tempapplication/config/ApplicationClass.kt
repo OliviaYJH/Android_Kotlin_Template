@@ -25,6 +25,8 @@ class ApplicationClass : Application() {
         super.onCreate()
         sSharedPreferences =
             applicationContext.getSharedPreferences("SOFTSQUARED_TEMPLATE_APP", MODE_PRIVATE) // 변경
+        editor = sSharedPreferences.edit()
+
         initRetrofitInstance()
     }
 
