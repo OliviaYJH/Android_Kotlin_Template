@@ -1,7 +1,5 @@
 # Android_Kotlin_Template
 
-finder에서 .gitignore 파일 있는지 확인하고 그렇지 않으면 Android_Kotlin_Template 디렉토리에서 shift + command + . 눌러서 .gitignore 파일 복붕하기
-
 
 1. xml 폴더에 network_security_config.xml 파일 복붙
 2. config, src, util 폴더 생성
